@@ -2,7 +2,7 @@ from flask import Flask
 from urllib.parse import quote
 
 def create_app():
-    app = Flask(_name_)
+    app = Flask(__name__)
 
     @app_route('/')
     def home():
@@ -10,6 +10,6 @@ def create_app():
 
     return app
 
-if _name_=='__main__':
+if __name__=='__main__':
     app = create_app()
     app.run(host='0.0.0.0', port=80, debug=True)
