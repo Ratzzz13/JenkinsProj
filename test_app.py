@@ -1,4 +1,4 @@
-mport pytest
+import pytest
 from app import create_app
 from urllib.parse import quoate
 
