@@ -4,7 +4,7 @@ from urllib.parse import quote
 def create_app():
     app = Flask(__name__)
 
-    @app_route('/')
+    @app.route('/')
     def home():
         return quote('Hello, world! This is a simple Flask app 12333.')
 
