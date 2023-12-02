@@ -50,4 +50,4 @@ jobs:
         uses: docker/build-push-action@v5.1.0
         with:
           push: true
-          tags: ratzzzsek/gfgflaskapp:v1
+          tags: ratzzzsek/gfgflaskapp:v2
